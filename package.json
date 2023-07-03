@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-logging",
+  "version": "1.0.0",
+  "description": "belajar node js logging",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "\\.[jt]sx?$": "babel-jest"
+    },
+    "collectCoverage": true
+  },
+  "author": "Ardianto Rannu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^29.5.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "winston": "^3.7.2"
+  }
+}
